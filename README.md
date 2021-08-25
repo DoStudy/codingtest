@@ -4,39 +4,53 @@
 ---
 
 ## 1. Purpose
+
 👉 Main : 새로운 알고리즘이 나왔을 때 풀어나갈 수 있는 기초 마련
+
 👉 Sub : 네카라쿠배당토(네이버/카카오/라인/쿠팡/배민/당근마켓/토스)의 코딩 테스트와 더불어 기술 면접에서 통과
 
 ## 2. Goal
+
 👉 백준 온라인 - 골드 티어 이상 / 종만북 1독
+
 👉 LeetCode - Hard 문제 시간이 걸려도 풀 수 있을 정도
+
 👉 프로그래머스 - 주간 문제 정도까지 풀 정도
 
 ## 3. 개념서
+
 👉 `Grokking Algorithm(원서) : Hello Coding Algorithm(한국어)`
+
 👉 [Hello Coding 알고리즘(원서/번역서: 해외Grokking Algorithms (Paperback)) | 아디트야 바르가바 | 한빛미디어 - 교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788968483547&orderClick=LEA&Kc=)
 
 ### 선택 이유 
  Algorithm의 바이블이라고 하는 `Introduction To Algorithm`은 전체적으로 알고리즘의 많은 내용을 다루고 있지만 실무와 동 떨어져 있을 수도 있어서 실무 위주로 구성되어 있는 책으로 선택, 그리고 알고리즘 베이스가 많이 약한 상태여서 쉬운 설명서로 선택!
-👉 부족한 부분은 추가해가면서 익혀도 될 듯, 하지만 코딩 테스트 범위 내용을 대부분(Data Structure는 제외되어 있음) 다루기 때문에 문제풀이 플랫폼을 사용하면 준비하기에 무난할 것이라 판단
+ 
+👉  부족한 부분은 추가해가면서 익혀도 될 듯, 하지만 코딩 테스트 범위 내용을 대부분(Data Structure는 제외되어 있음) 다루기 때문에 문제풀이 플랫폼을 사용하면 준비하기에 무난할 것이라 판단
 
-👉 `Cracking the Coding Interview(원서) : 코딩 인터뷰 완전 분석(한국어)`
-👉 http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966263080&orderClick=LEA&Kc=
+👉  `Cracking the Coding Interview(원서) : 코딩 인터뷰 완전 분석(한국어)`
+
+👉  http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788966263080&orderClick=LEA&Kc=
 
 ### 선택 이유
  승우님이 추천해주신 책, 찾아보니(Reddit, Quora) 많은 사람들이 이 책으로만 준비해도 충분하다고 하며 알고리즘 뿐만 아니라, 디자인 패턴/확률/시스템 설계/OOP. 설계/컴퓨터 언어… 등 실제 인터뷰와 관련된 내용을 담고 있어 알고리즘과 병행하여 준비하면 시너지가 생길 것이라 생각 -> 특히 추천해준 플랫폼이 해외 기반인 것을 보았을. 때 외국 기업을 준비하기에도 적합할 것이라고 생각
 
 ## 문제 풀이 플랫폼
-👉 해외 : LeetCode / AlgoExpert 등
-👉 국내 : 프로그래머스 / 백준 온라인 등
 
-최종 선택
-👉 해외 : LeetCode
-👉 국내 : 프로그래머스 / 백준 온라인
+👉  해외 : LeetCode / AlgoExpert 등
+
+👉  국내 : 프로그래머스 / 백준 온라인 등
+
+최종 픽
+
+👉  해외 : LeetCode
+
+👉  국내 : 프로그래머스 / 백준 온라인
 
 ### 선택 이유
 `해외`:
  AlgoExpert에서 제공하는 영상이 정답을 알려주는 영상이지, 어떤 식으로 생각하고 풀이해가는 과정이 아니라고 함, 영상에 대한 사람들의 평이 대부분 부정적, 그리고 문제가 카테고리 별로 체계화 되어있는데 반해서 문제 자체가 체계적이지 않은 것으로 보임. 
+ 
 👉 LeetCode 프리 티어로 진행
 
 `국내` : 
@@ -59,9 +73,14 @@
 
 - 카카오 : 문자열 처리 구현 / 그리디 / 구현
 - 삼전 : 문제를 바르게 읽고 예외 상황을 적절히 처리하는 방식 / 완전 탐색 / DFS/BFS / 구현
+
 👉 절반 이상의 문제를 안정적으로 해결했을 때 코딩 테스트에 합격
+
 👉 국내의 경우 자격증 준비하듯이 문제를 무작정 푸는 사람들이 600문제 1000문제 이상 푸는 경우가 있어서 지표가 딱히 없음
 
 ### 해외 기업 출제 테마 경향
+
 👉 구글 - 400문제 이상(LeetCode 하드 위주)
+
 👉 아마존 - 100문제 이상(그래프, 트리)
+
