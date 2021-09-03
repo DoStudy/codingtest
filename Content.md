@@ -1,8 +1,11 @@
-# Scheduling
+# Content
 
-## 1. 개념 학습
+## Step 1. 개념 학습 - Australopithecus(남쪽 원숭 사람)
 
 ### a) Grokking Algorithm
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
 
 - Chapter 1 알고리즘의 소개
 
@@ -24,11 +27,15 @@
  
 - chapter 10 KNN 알고리즘
  
-- ~~chapter 11 더 공부해야 할 것~~
+- ~~chapter 11 더 공부해야 할 것~~  
+</details>  
 
----
+<br/>
 
 ### b) Cracking the Coding Interview
+
+<details markdown="1">
+<summary>접기/펼치기</summary>
 
 > 이전 내용은 각자 읽어 볼 것!
 
@@ -64,4 +71,41 @@
 >
 > 15 스레드와 락
 
-## 
+</details>
+<br/>
+---
+
+
+## Step 2. 개념 응용 - Homo Habilis(손쓴 사람)
+ 
+- LeetCode/백준 온라인 해당 주차 Category 한 문제씩 문제풀기
+
+    -> **단, 문제는 상의 후 선정한 공통 문제!**
+
+- 추가적으로 개인이 푸는 건 자율 -> 개념 다 본(2달) 후 문제 풀 시간(2달) 충분히 가질 예정
+
+    -> **Don't worry**
+
+- 코드 리뷰 + 설명
+
+    -> 코테 뿐만 아니라 인터뷰까지도 생각하기 때문
+
+<br/>
+---
+
+## Step 3. 문제 활용 - Homo sapiens(슬기로운 사람)
+
+- 매주 일정한 수의 문제를 **LeetCode/백준 온라인/프로그래머스**를 통해 풀고 백준 온라인/LeetCode 등급 올리기를 목표
+
+    -> **GitHub Repo에 랭크 링크 달아놓을 예정**
+
+- To be a Coding machine
+
+<br/>
+---
+
+## Step 4. 이제 알고리즘 하나 끝났다. - Homo sapiens sapiens(슬기롭고 슬기로운 사람)
+
+- 다른 CS(Network/Vision/OS/Database 등등)를 익히면서 활용할 차례
+
+- 이 부분은 어떻게 진행할지 생각한 것 없음
