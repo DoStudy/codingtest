@@ -42,7 +42,7 @@ public static void main() {
 
 —- 
 
-### 큐
+### 큐 + 시간이 남는다면 원형 큐
 1. get 동작을 구현
 -> 큐의 가장 앞에 있는 데이터를 제거 하는 것
 
@@ -91,7 +91,9 @@ public static void main() {
 6. delete 동작을 구현
 -> 해당 노드를 삭제함
 
-## 재귀 문제
+## 재귀 문제 + 최적화!
+> 재귀의 문제점은? 해결 방법은?
+
 [Fibonacci Number - LeetCode](https://leetcode.com/problems/fibonacci-number/)
 
 [Reverse Linked List - LeetCode](https://leetcode.com/problems/reverse-linked-list/)
