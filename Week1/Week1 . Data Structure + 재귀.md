@@ -6,8 +6,11 @@
 > 여기서 말하는 배열은 메모리 상의 연속적인 위치 되어 있어야 함!  
 
 - 해당 동작에 맞게 함수 시그니쳐(자신이 사용하는 언어에 맞춰서)
+
 -> Python : snake_case
+
 -> Java : camelCase
+
 -> C++ : PascalCase
 
 - Data Structure에 맞춰서 추상화!
