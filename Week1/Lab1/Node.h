@@ -2,8 +2,7 @@
 // Created by 남기륭 on 2021/09/26.
 //
 
-#ifndef LAB1_NODE_H
-#define LAB1_NODE_H
+#pragma once
 
 #include <memory>
 
@@ -13,52 +12,40 @@ template<typename T>
 class Node
 {
 public:
-	Node(T data, const unique_ptr<T>& next);
+	Node(T data);
 
-	virtual ~Node();
+	virtual ~Node() = default;
 
-	T getData() const;
+	T GetData() const;
 
-	const unique_ptr<T>& getNext() const;
+	shared_ptr<Node<T>> GetNext() const;
 
-	bool operator==(const Node& rhs) const;
-
-	// 복사 생성자
-	// 대입 연산자
-	// 등등
+	void SetNext(shared_ptr<Node<T>> next);
 
 private:
-	T data;
-	unique_ptr<T> next;
+	T mData;
+	shared_ptr<Node<T>> mNext;
 };
 
 template<typename T>
-Node<T>::Node(T data, const unique_ptr<T>& next) : data(data), next(next)
+Node<T>::Node(T data) : mData(data), mNext(nullptr)
 {
 }
 
 template<typename T>
-Node<T>::~Node()
+T Node<T>::GetData() const
 {
-
+	return *(mData.get());
 }
 
 template<typename T>
-T Node<T>::getData() const
+shared_ptr<Node<T>> Node<T>::GetNext() const
 {
-	return data;
+	return mNext;
 }
 
 template<typename T>
-const unique_ptr<T>& Node<T>::getNext() const
+void Node<T>::SetNext(shared_ptr<Node<T>> next)
 {
-	return next;
+	mNext = next;
 }
-
-template<typename T>
-bool Node<T>::operator==(const Node& rhs) const
-{
-	return false;
-}
-
-#endif //LAB1_NODE_H

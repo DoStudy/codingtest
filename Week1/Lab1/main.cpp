@@ -1,7 +1,19 @@
 #include <iostream>
+#include "LinkedList.h"
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
-	return 0;
+	/**
+	 * LinkedList Test
+	 */
+	{
+		// Insert Test
+		LinkedList<int> linkedList;
+		linkedList.Insert(5);
+		linkedList.Insert(6);
+		linkedList.Insert(7);
+
+
+		// Delete Test
+	}
 }
