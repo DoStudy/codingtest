@@ -1,5 +1,7 @@
 #include <iostream>
 #include "LinkedList.h"
+#include "Stack.h"
+#include "Queue.h"
 
 int main()
 {
@@ -52,5 +54,42 @@ int main()
 
 		// Print test
 		linkedList.PrintLinkedList();
+	}
+
+	/**
+	 * Stack Test
+	 */
+	{
+		Stack<int> stack;
+		stack.Push(1);
+		stack.Push(2);
+
+		assert(stack.Top() == 2);
+		stack.Pop();
+
+		assert(stack.Top() == 1);
+		stack.Pop();
+
+		assert(stack.IsEmpty());
+	}
+
+	/**
+	 * Queue Test
+	 */
+	{
+		Queue<char> queue;
+		queue.Push('a');
+		queue.Push('b');
+		queue.Push('c');
+
+		assert(queue.Front() == 'a');
+		assert(queue.Rear() == 'c');
+		queue.Pop();
+		assert(queue.Front() == 'b');
+		assert(queue.Rear() == 'c');
+		queue.Pop();
+		assert(queue.Front() == 'c');
+		assert(queue.Rear() == 'c');
+		queue.Pop();
 	}
 }
