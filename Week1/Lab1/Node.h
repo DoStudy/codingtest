@@ -35,7 +35,7 @@ Node<T>::Node(T data) : mData(data), mNext(nullptr)
 template<typename T>
 T Node<T>::GetData() const
 {
-	return *(mData.get());
+	return mData;
 }
 
 template<typename T>

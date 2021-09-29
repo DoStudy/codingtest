@@ -4,6 +4,7 @@
 
 #pragma once
 
+#include <iostream>
 #include <memory>
 #include "Node.h"
 
@@ -53,6 +54,37 @@ bool LinkedList<T>::Insert(T data)
 template<typename T>
 bool LinkedList<T>::Delete(T data)
 {
+	if (mRoot == nullptr)
+	{
+		return false;
+	}
+
+	std::shared_ptr<Node<T>> currentNode = mRoot;
+	shared_ptr<Node<T>> prevNode;
+
+	while (currentNode != nullptr)
+	{
+
+
+		if (currentNode->GetData() == data)
+		{
+			if (currentNode == mRoot) // 처음에서 삭제
+			{
+				mRoot = currentNode->GetNext();
+			}
+			else
+			{
+				prevNode->SetNext(currentNode->GetNext());
+			}
+
+			currentNode.reset();
+
+			return true;
+		}
+
+		prevNode = currentNode;
+		currentNode = currentNode->GetNext();
+	}
 
 	return false;
 }
@@ -60,5 +92,18 @@ bool LinkedList<T>::Delete(T data)
 template<typename T>
 void LinkedList<T>::PrintLinkedList()
 {
+	shared_ptr<Node<T>> currentNode = mRoot;
+	while (currentNode != nullptr)
+	{
+		if (currentNode->GetNext() != nullptr)
+		{
+			std::cout << currentNode->GetData() << "->";
+		}
+		else
+		{
+			std::cout << currentNode->GetData() << std::endl;
+		}
 
+		currentNode = currentNode->GetNext();
+	}
 }

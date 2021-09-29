@@ -2,13 +2,16 @@
 // Created by 남기륭 on 2021/09/26.
 //
 
-#ifndef LAB1_QUEUE_H
-#define LAB1_QUEUE_H
+#pragma once
+#include "Node.h"
 
-
+template <typename T>
 class Queue
 {
-
+public:
+	
+private:
+	shared_ptr<Node<T>> mTopNode;
 };
 
 
