@@ -38,15 +38,63 @@ https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%83%90%EC%83%89_%ED%8A%B8%EB
     1. 메모리 관련하여 문제가 될 수 있는 부분이 있는지
     2. 시간 복잡도가 예상하던 것과 일치 하는지    
 
-2. 삽입 구현
+``` java
+public class TreeNode final  {
+
+    public int data;
+    public TreeNode left;
+    public TreeNode right;
+    public TreeNode parent;
+
+    public TreeNode(int data) {
+
+    }
+
+    public TreeNode(TreeNode parent, int data) {
+
+    }
+}
+```
+
+``` c++
+class TreeNode final 
+{
+    public:
+        TreeNode(int data);
+        TreeNode(TreeNode* parent, int data);
+        
+        int data;
+        TreeNode* mLeft;
+        TreeNode* mRight;
+        TreeNode* mParent;
+}
+```
+
+2. 삽입 구현 - Insert
+
+> data를 집어 넣으면 맞는 위치에 삽입됩니다.
 
 3. 탐색 구현
 
+> data를 매개변수로 입력하면 해당하는 TreeNode가 반환 됩니다.
+
 4. 삭제 구현
+
+> data를 매개변수로 입력하면 해당하는 TreeNode가 삭제되고 bool / Boolean을 반환합니다.
 
 5. 루트 노드 반환
 
+> Tree의 RootNode를 반환합니다.
+
 6. 값에 따라 오름 차순 출력
+
+> 입력한 노드를 기준으로 오름차순으로 출력함
+
+> 예시 이미지 첨부 - 처음으로 나온 BST 예시 -> 참고자료 아님
+
+> https://www.geeksforgeeks.org/check-if-given-sorted-sub-sequence-exists-in-binary-search-tree/
+
+> [1, 3, 4, 6, 7, 8, 10, 13, 14]
 
 ## 3. 문제!
 
