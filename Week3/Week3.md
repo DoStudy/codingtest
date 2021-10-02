@@ -14,13 +14,17 @@
 
 -> C++ : PascalCase
 
-> Murmur Hash - 이미 코드 있음
+> Murmur Hash - 이미 코드 있음 -> 한번 보기
 
 - https://sites.google.com/site/murmurhash/ - C++
 
 - https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/digest/MurmurHash3.html - Java
 
-- 스터디 주제 : 적절한 해시 고르는 기준
+---
+
+- **이번주 Lab - 1 : 적절한 해시 고르는 기준 알아보기**
+
+- **이번주 Lab - 2 : 정말 간단한 Lose Lose 알고리듬 만들기**
 
 ## 2. Data Structure - Hash Table
 
