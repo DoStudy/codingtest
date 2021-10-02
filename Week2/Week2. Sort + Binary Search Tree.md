@@ -39,7 +39,7 @@ https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%A7%84_%ED%83%90%EC%83%89_%ED%8A%B8%EB
     2. 시간 복잡도가 예상하던 것과 일치 하는지    
 
 ``` java
-public class TreeNode final  {
+public final class TreeNode  {
 
     public int data;
     public TreeNode left;
