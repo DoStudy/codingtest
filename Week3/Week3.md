@@ -7,17 +7,20 @@
 > Lose Lose 알고리듬
 
 - 해당 동작에 맞게 함수 시그니쳐(자신이 사용하는 언어에 맞춰서)
+
 -> Python : snake_case
+
 -> Java : camelCase
+
 -> C++ : PascalCase
 
-- Murmur Hash - 이미 코드 있음
+> Murmur Hash - 이미 코드 있음
 
-> https://sites.google.com/site/murmurhash/ - C++
+- https://sites.google.com/site/murmurhash/ - C++
 
-> https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/digest/MurmurHash3.html - Java
+- https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/digest/MurmurHash3.html - Java
 
-> 스터디 주제 : 적절한 해시 고르는 기준
+- 스터디 주제 : 적절한 해시 고르는 기준
 
 ## 2. Data Structure - Hash Table
 
