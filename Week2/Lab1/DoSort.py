@@ -1,8 +1,8 @@
 class DoSort:
     def __init__(self, do_array):
         self.target_sort = None
-        self.do_array = do_array
-        self.swapped_array = do_array.copy()
+        self.do_array = None
+        self.swapped_array = None
 
     def do_print(self):
         print("\n\t%s=\n" % ("=-" * 10))

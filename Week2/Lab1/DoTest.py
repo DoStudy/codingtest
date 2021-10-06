@@ -1,6 +1,8 @@
 from DoBubbleSort import DoBubbleSort
 from DoSelectionSort import DoSelectionSort
 from DoInsertionSort import DoInsertionSort
+from DoQuickSort import DoQuickSort
+from DoMergeSort import DoMergeSort
 
 
 if __name__ == "__main__":
@@ -17,3 +19,10 @@ if __name__ == "__main__":
     insertion.do_sort()
     insertion.do_print()
 
+    Quick = DoQuickSort(input_array)
+    Quick.do_sort()
+    Quick.do_print()
+
+    Merge = DoMergeSort(input_array)
+    Merge.do_sort()
+    Merge.do_print()
