@@ -5,6 +5,7 @@
 #include <iostream>
 #include <ctime>
 #include <random>
+#include "math.h"
 #include "Sort.h"
 
 /**
