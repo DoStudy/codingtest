@@ -16,20 +16,11 @@
 
 > Murmur Hash - 이미 코드 있음 -> 한번 보기
 
+- 어차피 봐도 이해안감
+
 - https://sites.google.com/site/murmurhash/ - C++
 
 - https://commons.apache.org/proper/commons-codec/apidocs/org/apache/commons/codec/digest/MurmurHash3.html - Java
-
-> FNV-1 Hash - MurMur Hash 보다 성능이 좋음
-
-- https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function
-
----
-
-- Comparison Of Hashing Algorithm
-https://softwareengineering.stackexchange.com/questions/49550/which-hashing-algorithm-is-best-for-uniqueness-and-speed
-
-- 암호학적 Hash는 제외하는게 나으려나?
 
 ---
 

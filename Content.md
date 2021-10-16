@@ -77,7 +77,15 @@
 
 
 ## Step 2. 개념 응용 - Homo Habilis(손쓴 사람)
- 
+
+- Coding Standard 준수 시작
+
+    -> C++ : https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/CodingStandard/
+
+    -> Java : https://google.github.io/styleguide/javaguide.html
+
+    -> Python : https://www.python.org/dev/peps/pep-0008/
+
 - LeetCode/백준 온라인 해당 주차 Category 한 문제씩 문제풀기
 
     -> **단, 문제는 상의 후 선정한 공통 문제!**
