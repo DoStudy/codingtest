@@ -4,7 +4,7 @@ __author__ = "Ryu"
 __email__ = "ryuk9302@gmail.com"
 """
 
-import DoSort as Sort
+from codingtest.Week2.Lab1 import DoSort as Sort
 
 
 class DoSelectionSort(Sort.DoSort):

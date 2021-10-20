@@ -1,3 +1,10 @@
+"""
+__filename__ = "DoSort.py"
+__author__ = "Ryu"
+__email__ = "ryuk9302@gmail.com"
+"""
+
+
 class DoSort:
     def __init__(self, do_array):
         self.target_sort = None
