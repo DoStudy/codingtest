@@ -4,17 +4,17 @@ __author__ = "Ryu"
 __email__ = "ryuk9302@gmail.com"
 """
 
-from codingtest.Week2.Lab1.DoBubbleSort import DoBubbleSort
-from codingtest.Week2.Lab1.DoSelectionSort import DoSelectionSort
-from codingtest.Week2.Lab1.DoInsertionSort import DoInsertionSort
-from codingtest.Week2.Lab1.DoQuickSort import DoQuickSort
-from codingtest.Week2.Lab1.DoMergeSort import DoMergeSort
+from codingtest.Week2.Lab2.DoBubbleSort import DoBubbleSort
+from codingtest.Week2.Lab2.DoSelectionSort import DoSelectionSort
+from codingtest.Week2.Lab2.DoInsertionSort import DoInsertionSort
+from codingtest.Week2.Lab2.DoQuickSort import DoQuickSort
+from codingtest.Week2.Lab2.DoMergeSort import DoMergeSort
 
-from codingtest.Week2.Ass1.DoBinarySearchTree import DoBinarySearchTree
+from codingtest.Week2.Ass2.DoBinarySearchTree import DoBinarySearchTree
 
 
 if __name__ == "__main__":
-    # input_array = [1, 5, 4, 3, 2]
+    input_array = [1, 5, 4, 3, 2, 9, 6, 10, 8]
     # bubble = DoBubbleSort(input_array)
     # bubble.do_sort()
     # bubble.do_print()
@@ -35,5 +35,8 @@ if __name__ == "__main__":
     # Merge.do_sort()
     # Merge.do_print()
 
-    se = DoBinarySearchTree()
-    se.do_set_root(10)
+    BST = DoBinarySearchTree()
+
+    for do_data in input_array:
+        BST.do_insert(do_data)
+
