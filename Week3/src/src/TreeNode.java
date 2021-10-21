@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class TreeNode {
@@ -43,6 +44,20 @@ public class TreeNode {
         return getTreeNodeOrNull(node.right, targetData);
     }
 
+    public static TreeNode insertNodeRecursive(TreeNode node, int targetData) {
+        if (node == null) {
+            return new TreeNode(targetData);
+        }
+
+        if (targetData < node.data) {
+            node.left = insertNodeRecursive(node.left, node, targetData);
+        } else {
+            node.right = insertNodeRecursive(node.right, node, targetData);
+        }
+
+        return node;
+    }
+
     public static TreeNode insertNodeRecursive(TreeNode node, TreeNode parent, int targetData) {
         if (node == null) {
             return new TreeNode(targetData, parent);
@@ -77,8 +92,9 @@ public class TreeNode {
                 } else {
                     parent.right = null;
                 }
-                return true;
             }
+
+            return true;
         } else if (treeNodeOrNull.left != null && treeNodeOrNull.right != null) { // 자식이 두개인 경우
             TreeNode successor = findSuccessorRecursive(treeNodeOrNull.right);
             treeNodeOrNull.data = successor.data;
@@ -106,8 +122,6 @@ public class TreeNode {
 
             return true;
         }
-
-        return false;
     }
 
     public static TreeNode findSuccessorRecursive(TreeNode node) {
@@ -122,13 +136,20 @@ public class TreeNode {
         return findSuccessorRecursive(node.left);
     }
 
-    public static void traverseInOrder(TreeNode node, LinkedList<TreeNode> inorderList) {
+    public static void traverseInOrder(TreeNode node, ArrayList<TreeNode> inorderList) {
         if (node == null) {
             return;
         }
 
         traverseInOrder(node.left, inorderList);
-        inorderList.addLast(node);
+        inorderList.add(node);
         traverseInOrder(node.right, inorderList);
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "data=" + data +
+                '}';
     }
 }
